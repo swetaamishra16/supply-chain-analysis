@@ -56,9 +56,9 @@ Python · pandas · NumPy · matplotlib · seaborn · scikit-learn · imbalanced
 ## Visualisations
 | | |
 |---|---|
-| ![Profitability distribution](images/profitability_distribution.png) | ![Delay distribution and profit](images/delay_distribution_and_profit.png) |
-| ![Delay by category](images/delay_by_category.png) | ![Central Africa drivers](images/central_africa_drivers.png) |
-| ![Delay by month, day and hour](images/delay_by_month_day_hour.png) | |
+| ![Profitability distribution](images/profitability%20distribution.png) | ![Delay distribution and profit](images/delay%20distribution%20and%20profit.png) |
+| ![Delay by category](images/delay%20by%20category.png) | ![Central Africa drivers](images/central%20africa%20drivers.png) |
+| ![Delay by month, day and hour](images/delay%20by%20month%20day%20hour.png) | |
 
 ## Limitations
 - The model uses only order-time information (scheduled days, shipping mode, category, segment, department, region, month and hour). Accuracy of 0.74 is a useful baseline, not a production-ready predictor.
@@ -83,6 +83,3 @@ supply-chain-analysis/
 2. Download `DataCoSupplyChainDataset.csv` from Kaggle and place it in the project folder.
 3. Open `SupplyChainAnalysis.ipynb` and run all cells.
 
-## Author
-**Sweta Mishra**: B.Tech in Computer Science, KIIT University
-GitHub: [swetaamishra16](https://github.com/swetaamishra16)
