@@ -54,11 +54,26 @@ Python · pandas · NumPy · matplotlib · seaborn · scikit-learn · imbalanced
   | F1 (late class) | 0.77 |
 
 ## Visualisations
-| | |
-|---|---|
-| ![Profitability distribution](images/profitability%20distribution.png) | ![Delay distribution and profit](images/delay%20distribution%20and%20profit.png) |
-| ![Delay by category](images/delay%20by%20category.png) | ![Central Africa drivers](images/central%20africa%20drivers.png) |
-| ![Delay by month, day and hour](images/delay%20by%20month%20day%20hour.png) | |
+
+**Profitability distribution:** 80.7% of orders are profitable, 18.7% lose money.
+
+![Profitability distribution](images/profitability%20distribution.png)
+
+**Delay distribution and profit by delay days:** most late orders are just 1 day late, and profit per order barely changes with delay.
+
+![Delay distribution and profit](images/delay%20distribution%20and%20profit.png)
+
+**Delay % by category:** shipping mode is the strongest driver, with First Class 100% late versus Standard Class 39.8%.
+
+![Delay by category](images/delay%20by%20category.png)
+
+**Top drivers of late delivery in Central Africa:** the region with the highest delay rate (58.7%).
+
+![Central Africa drivers](images/central%20africa%20drivers.png)
+
+**Delay % by month, day and hour:** time of day, week or year changes the delay rate very little.
+
+![Delay by month, day and hour](images/delay%20by%20month%20day%20hour.png)
 
 ## Limitations
 - The model uses only order-time information (scheduled days, shipping mode, category, segment, department, region, month and hour). Accuracy of 0.74 is a useful baseline, not a production-ready predictor.
